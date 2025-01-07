@@ -127,7 +127,7 @@ const Navbar = () => {
         </ul>
 
         {/* Hamburger Menu for Mobile View */}
-        <div className="lg:hidden text-2xl cursor-pointer" onClick={toggleMenu}>
+        <div className="lg:hidden text-2xl cursor-pointer flex-shrink-0 overflow-hidden" onClick={toggleMenu}>
           {isOpen ? <FiX /> : <FiMenu size="30" />}
         </div>
 
