@@ -1,6 +1,6 @@
 import React from "react";
-import Certificate1 from "../../assets/Certificate.jpeg"; // Replace with your actual certificate image paths
-import Certificate2 from "../../assets/Certificate2.png";
+import Certificate1 from "../../assets/certificate.jpeg"; // Replace with your actual certificate image paths
+import Certificate2 from "../../assets/certificate2.png";
 // import Certificate3 from "../../assets/Certificate3.jpeg";
 
 const Certificate = () => {
